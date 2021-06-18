@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Open+Sans&display=swap");
+header {
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: auto;
+  z-index: 1;
+  position: relative;
+}
+
+header .header_div_menu {
+  display: none;
+}
+
+header .div_select_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+
+header .div_select_header .row_select_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 5%;
+  width: auto;
+}
+
+header .div_select_header .row_select_header .p_select_header {
+  margin-right: 2%;
+}
+
+header .div_select_header .row_select_header .p_select_header p {
+  margin-bottom: 0px;
+  width: 300px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #535461;
+}
+
+header .div_select_header .row_select_header .select_option {
+  padding: 3% 5%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+}
+
+header .div_select_header .row_select_header .select_option option {
+  margin-bottom: 5%;
+}
+
+.backgrapund_desktop {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  top: 0px;
+}
+
+.backgrapund_desktop .fondo_left img {
+  height: 100%;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5%;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: auto;
+  z-index: 2;
+  position: relative;
+}
+
+.hero .hero_p p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #535461;
+}
+
+.hero .hero_img_Calendar {
+  display: block;
+}
+
+.hero .hero_img img {
+  width: 100%;
+}
+
+.hero .div_select {
+  display: none;
+}
+
+.main {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+  z-index: 3;
+  position: relative;
+}
+
+.main .main_div_calendar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .main_div_calendar .div_calendar {
+  width: 50%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 5%;
+  border-radius: 10px;
+}
+
+.main .main_div_calendar .div_calendar .container_dates {
+  width: 40%;
+}
+
+.main .main_div_calendar .div_calendar .container_dates .div_dates {
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
+
+.main .main_div_calendar .div_calendar .container_dates .div_dates .dates {
+  background: #7439BD;
+  padding: 1% 1%;
+  border-radius: 20px;
+  margin-bottom: 5%;
+  width: 100%;
+}
+
+.main .main_div_calendar .div_calendar .container_dates .div_dates .dates .input_calendar {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.main .main_div_calendar .div_calendar .container_dates .div_dates .dates .input_calendar[type="date"]::-webkit-calendar-picker-indicator {
+  background: none;
+}
+
+.main .main_div_calendar .div_calendar .container_dates .div_dates .dates .input_calendar[type="date"]::-webkit-calendar-picker-indicator {
+  display: block;
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+
+.main .main_div_calendar .div_calendar .container_dates .div_dates .dates .input_calendar[type="time"]::-webkit-calendar-picker-indicator {
+  display: block;
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+
+.main .main_div_calendar .div_calendar .container_dates .div_dates .date_desable {
+  background: #C4C4C4;
+}
+
+.main .main_div_calendar .div_calendar .container_dates .div_dates .date_desable .input_calendar {
+  color: #7439BD;
+}
+
+.div_select_btn {
+  margin-top: 3%;
+  text-align: center;
+  z-index: 4;
+  position: relative;
+}
+
+.div_select_btn p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #535461;
+}
+
+.div_select_btn .btn_reserva {
+  background-color: #7439BD;
+  color: white;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  padding: 1% 3%;
+  border-radius: 25px;
+}
+
+.background {
+  display: none;
+}
+
+.div_btn_desktop {
+  display: block;
+}
+
+.moda_space {
+  max-width: 700px;
+}
+
+.moda_emer {
+  background-color: #EFEFFC !important;
+  border-radius: 20px;
+}
+
+.moda_emer .modal_closed {
+  z-index: 5;
+  position: absolute;
+  width: 100%;
+  border-bottom: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.moda_emer .modal_closed .btn_modal_closed {
+  color: #A8A8A8;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.moda_emer .info_modal {
+  width: 100%;
+  text-align: center;
+  padding: 5% 20%;
+}
+
+.moda_emer .info_modal img {
+  padding-left: 10%;
+}
+
+.moda_emer .info_modal h3 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  color: #7439BD;
+}
+
+.moda_emer .info_modal p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: 535461;
+}
+
+.moda_emer .background_modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 0;
+  position: absolute;
+}
+
+.moda_emer .background_modal img {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=desktop.css.map */

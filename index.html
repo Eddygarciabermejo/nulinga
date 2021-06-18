@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/2e44b03eb3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <link
+      rel="stylesheet"
+      media="(min-width: 950px)"
+      href="./assets/styles/desktop.css"
+    />
+    <title>Nulinga</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="./assets/image/logo.png" alt="" />
+      </div>
+      <div class="header_div_menu">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="div_select_header">
+        <div class="row_select_header">
+          <div class="p_select_header">
+            <p>Selecciona tu zona horaria</p>
+          </div>
+          <div>
+            <form action="">
+              <select required class="select_option">
+                <option>Argentina UTC/GMT(-3:00)</option>
+                <option>Bolivia UTC/GMT(-4:00)</option>
+                <option>Colombia UTC/GMT(-5:00)</option>
+                <option>Costa Rica UTC/GMT(-6:00)</option>
+              </select>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="backgrapund_desktop">
+      <div class="fondo_left">
+        <img src="./assets/image/backgroun_des_ledt.png" alt="" />
+      </div>
+      <div class="fondo_left">
+        <img src="./assets/image/background_desk_rigth.png" alt="" />
+      </div>
+    </div>
+    <section class="hero">
+      <div class="hero_p">
+        <p>
+          Elige tu mejor <br />
+          momento para aprender
+        </p>
+      </div>
+      <div class="hero_img">
+        <img src="./assets/image/undraw.png" alt="" />
+      </div>
+      <div class="div_select">
+        <p>Selecciona tu zona horaria</p>
+        <form action="">
+          <select required class="select_option">
+            <option>Argentina UTC/GMT(-3:00)</option>
+            <option>Bolivia UTC/GMT(-4:00)</option>
+            <option>Colombia UTC/GMT(-5:00)</option>
+            <option>Costa Rica UTC/GMT(-6:00)</option>
+          </select>
+          <div class="div_select_btn">
+            <a href="./calendar.html">Continuar</a>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <div class="main">
+      <div>
+        <h3>¡Queremos saber tu disponibilidad!</h3>
+        <p>
+          Elegí hasta 3 opciones para que podamos <br />
+          asignarte un curso
+        </p>
+      </div>
+      <div class="main_div_calendar">
+        <div class="div_calendar">
+          <div class="container_dates">
+            <p>Fechas</p>
+            <div class="div_dates">
+              <div class="dates">
+                <input class="input_calendar" type="date" value="2021-06-18" />
+              </div>
+              <div class="dates date_desable">
+                <input class="input_calendar" type="date" value="2021-06-18" />
+              </div>
+              <div class="dates date_desable">
+                <input class="input_calendar" type="date" value="2021-06-18" />
+              </div>
+            </div>
+          </div>
+          <div class="container_dates">
+            <p>Horas</p>
+            <div class="div_dates">
+              <div class="dates">
+                <input class="input_calendar" type="time" value="07:30"  />
+              </div>
+              <div class="dates date_desable">
+                <input class="input_calendar" type="time" value="07:30"  />
+              </div>
+              <div class="dates date_desable">
+                <input class="input_calendar" type="time" value="07:30"  />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="div_select_btn div_btn_desktop">
+      <p>¡Podés seguir seleccionando más opciones!</p>
+      <button
+        type="button"
+        class="btn_reserva"
+        data-toggle="modal"
+        data-target="#exampleModal"
+      >
+        Reservá tu clase
+      </button>
+    </div>
+    <!-- Modal -->
+    <div
+      class="modal fade "
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog moda_space">
+        <div class="modal-content moda_emer">
+          <div class="modal-header modal_closed">
+            <button type="button" class="btn btn_modal_closed" data-dismiss="modal">X</button>
+          </div>
+          <div class="background_modal">
+            <div>
+              <img src="./assets/image/fondo_modal_left.png" alt="">
+            </div>
+            <div>
+              <img src="./assets/image/fondo_modal_rigth.png" alt="">
+            </div>
+          </div>
+          <div class="modal-body modal_container">
+            <div class="info_modal">
+              <h3>
+                  ¡GRACIAS!
+              </h3>
+              <P>
+                Ya registramos tus <br/>
+                horarios seleccionados
+              </P>
+            </div>
+            <div class="info_modal">
+              <img src="./assets/image/thank.png" alt="">
+              <p>
+                ¡Te asignareos <br/> 
+                una clase a la brevedad!
+              </p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

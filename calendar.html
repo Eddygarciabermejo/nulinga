@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/2e44b03eb3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <link
+      rel="stylesheet"
+      media="(min-width: 950px)"
+      href="./assets/styles/desktop.css"
+    />
+    <title>Nulinga</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="./assets/image/logo.png" alt="" />
+      </div>
+      <div class="header_div_menu">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="div_select_header">
+        <div class="row_select_header">
+          <div class="p_select_header">
+            <p>Selecciona tu zona horaria</p>
+          </div>
+          <div>
+            <form action="">
+              <select required class="select_option">
+                <option>Argentina UTC/GMT(-3:00)</option>
+                <option>Bolivia UTC/GMT(-4:00)</option>
+                <option>Colombia UTC/GMT(-5:00)</option>
+                <option>Costa Rica UTC/GMT(-6:00)</option>
+              </select>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="backgrapund_desktop">
+      <div class="fondo_left">
+        <img src="./assets/image/backgroun_des_ledt.png" alt="">
+      </div>
+      <div>
+        <img src="./assets/image/background_desk_rigth.png" alt="">
+      </div>
+    </div>
+    <section class="hero">
+      <div class="hero_p">
+        <p>¡Queremos saber<br/>tu dispoibilidad</p>
+      </div>
+      <div class="calendar">
+          <div class="div_calendar">
+            <div class="title_calendar">
+                <p>Elegí hasta 3 opciones para que <br/>podamos asignarte un curso</p>
+            </div>
+            <div class="dates_calendar">
+              <div  class="dates date_desable" onclick="colorcalendar('select_calendar', 'input_color')" id="select_calendar"  >
+                  <input   class="datetime" id="input_color"  type="datetime-local" name="" id="" value="2021-06-18T19:30">
+              </div>
+              <div class="dates date_desable" onclick="colorcalendar('select_calendar1','input_color1')" id="select_calendar1">
+                <input class="datetime" id="input_color1" type="datetime-local" name="" id="" value="2021-06-18T19:30">
+              </div>
+              <div class="dates date_desable" onclick="colorcalendar('select_calendar2', 'input_color2')" id="select_calendar2">
+                <input class="datetime" id="input_color2" type="datetime-local" name="" id="" value="2021-06-18T19:30">
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="div_btn_reser">
+        <p id="p_disebled">
+          ¡Podés seguir seleccionando más opciones!
+        </p>
+        <a id="j" class="btn_reser" href="./thank.html">Reservá tu clase</a>
+      </div>
+      <div class="background">
+        <img src="./assets/image/fondo.png" alt="">
+      </div>
+
+     
+     
+      
+      </div>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>

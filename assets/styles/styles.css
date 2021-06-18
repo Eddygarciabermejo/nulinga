@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Open+Sans&display=swap");
+body {
+  background-color: #EFEFFC;
+}
+
+header {
+  background-color: #7439BD;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 50px;
+}
+
+header .header_div_menu {
+  margin-right: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header_div_menu i {
+  color: white;
+  font-size: 1rem;
+}
+
+header .div_select_header {
+  display: none;
+}
+
+.hero {
+  text-align: center;
+  height: 90vh;
+  margin-top: 20%;
+}
+
+.hero .hero_img_Calendar {
+  display: none;
+}
+
+.hero .hero_p {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.hero .hero_p p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #535461;
+}
+
+.hero .hero_img img {
+  width: 70%;
+}
+
+.hero .hero_thank {
+  width: 100%;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.hero .hero_thank img {
+  width: 100%;
+}
+
+.hero .mensaje_thank {
+  font-family: "Barlow", sans-serif;
+  color: #7439BD;
+  font-weight: 500;
+  font-size: 48px;
+}
+
+.hero .div_thank_botton {
+  margin-top: 10%;
+}
+
+.hero .div_thank_botton p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #535461;
+}
+
+.div_select {
+  margin-top: 5%;
+}
+
+.div_select .select_option {
+  border: none;
+  background: white;
+  padding: 3% 5%;
+  width: 70%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.div_select .select_option::focus {
+  outline: none;
+}
+
+.div_select .select_option::-ms-expand {
+  margin-right: 10%;
+}
+
+.div_select p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #535461;
+}
+
+.div_select .div_select_btn {
+  margin-top: 50%;
+}
+
+.div_select .div_select_btn a {
+  background-color: #7439BD;
+  color: white;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  width: 100%;
+  padding: 5% 20%;
+  border-radius: 30px;
+}
+
+.calendar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20%;
+  margin-top: 8%;
+  position: relative;
+  z-index: 1;
+}
+
+.calendar .div_calendar {
+  width: 80%;
+  background: white;
+  border-radius: 15px;
+}
+
+.calendar .div_calendar .title_calendar {
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+.calendar .div_calendar .title_calendar p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #535461;
+}
+
+.calendar .div_calendar .dates_calendar {
+  margin-bottom: 20%;
+}
+
+.calendar .div_calendar .dates_calendar .dates {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 2% 2%;
+  border-radius: 20px;
+  margin-bottom: 8%;
+}
+
+.calendar .div_calendar .dates_calendar .dates .datetime {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #7439BD;
+}
+
+.calendar .div_calendar .dates_calendar .dates .datetime[type="datetime-local"]::-webkit-calendar-picker-indicator {
+  background: none;
+}
+
+.calendar .div_calendar .dates_calendar .dates .datetime[type="datetime-local"]::-webkit-calendar-picker-indicator {
+  display: block;
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80%;
+  height: 80%;
+}
+
+.calendar .div_calendar .dates_calendar .date_desable {
+  background: #C4C4C4;
+}
+
+.div_btn_reser {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.div_btn_reser p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #535461;
+  margin-bottom: 10%;
+  display: none;
+}
+
+.div_btn_reser .btn_reser {
+  background-color: #7439BD;
+  color: white;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  padding: 4% 15%;
+  border-radius: 30px;
+  margin-bottom: 2%;
+  width: 80%;
+  background-color: #A8A8A8;
+}
+
+.background {
+  position: absolute;
+  z-index: 0;
+  top: 64%;
+}
+
+.background img {
+  width: 100%;
+}
+
+.main {
+  display: none;
+}
+
+.backgrapund_desktop {
+  display: none;
+}
+
+.div_btn_desktop {
+  display: none;
+}
+/*# sourceMappingURL=styles.css.map */
