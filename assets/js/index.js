@@ -12,7 +12,17 @@ function colorcalendar(p,h){
     let p_dise = document.getElementById('p_disebled')
 
 
-    if ( btn.style.backgroundColor == "rgb(116, 57, 189)" && btn1.style.backgroundColor == "rgb(116, 57, 189)" && btn2.style.backgroundColor == "rgb(116, 57, 189)"  ){
+    if ( btn.style.backgroundColor == "rgb(116, 57, 189)"){
+        btncolor.style.backgroundColor = "rgb(116, 57, 189)"
+        p_dise.style.display = "block"
+    }
+
+    if(btn1.style.backgroundColor == "rgb(116, 57, 189)"){
+        btncolor.style.backgroundColor = "rgb(116, 57, 189)"
+        p_dise.style.display = "block"
+    }
+
+    if(btn2.style.backgroundColor == "rgb(116, 57, 189)" ){
         btncolor.style.backgroundColor = "rgb(116, 57, 189)"
         p_dise.style.display = "block"
     }
