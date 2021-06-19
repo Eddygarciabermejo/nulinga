@@ -95,28 +95,28 @@
           <div class="container_dates">
             <p>Fechas</p>
             <div class="div_dates">
-              <div class="dates">
-                <input class="input_calendar" type="date" value="2021-06-18" />
+              <div class="dates" onclick="colorcalendardesktop('div_calen', 'calendar')" id="div_calen">
+                <input  id="calendar" class="input_calendar" type="date" value="2021-06-18" />
               </div>
-              <div class="dates date_desable">
-                <input class="input_calendar" type="date" value="2021-06-18" />
+              <div class="dates " onclick="colorcalendardesktop('div_calen1', 'calendar1')" id="div_calen1">
+                <input id="calendar1" class="input_calendar" type="date" value="2021-06-18" />
               </div>
-              <div class="dates date_desable">
-                <input class="input_calendar" type="date" value="2021-06-18" />
+              <div class="dates" onclick="colorcalendardesktop('div_calen2', 'calendar2')" id="div_calen2">
+                <input id="calendar2" class="input_calendar" type="date" value="2021-06-18" />
               </div>
             </div>
           </div>
           <div class="container_dates">
             <p>Horas</p>
             <div class="div_dates">
-              <div class="dates">
-                <input class="input_calendar" type="time" value="07:30"  />
+              <div class="dates" onclick="colorcalendardesktop('div_calen3', 'calendar3')" id="div_calen3">
+                <input class="input_calendar" type="time" value="07:30" id="calendar3"  />
               </div>
-              <div class="dates date_desable">
-                <input class="input_calendar" type="time" value="07:30"  />
+              <div class="dates" onclick="colorcalendardesktop('div_calen4', 'calendar4')" id="div_calen4">
+                <input class="input_calendar" type="time" value="07:30" id="calendar4"  />
               </div>
-              <div class="dates date_desable">
-                <input class="input_calendar" type="time" value="07:30"  />
+              <div class="dates"  onclick="colorcalendardesktop('div_calen5', 'calendar5')" id="div_calen5">
+                <input class="input_calendar" type="time" value="07:30" id="calendar5" />
               </div>
             </div>
           </div>
@@ -124,12 +124,13 @@
       </div>
     </div>
     <div class="div_select_btn div_btn_desktop">
-      <p>¡Podés seguir seleccionando más opciones!</p>
+      <p class="tex_desible" id="tex_desible">¡Podés seguir seleccionando más opciones!</p>
       <button
         type="button"
         class="btn_reserva"
         data-toggle="modal"
         data-target="#exampleModal"
+        id="btn_send"
       >
         Reservá tu clase
       </button>
@@ -187,5 +188,6 @@
       integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
       crossorigin="anonymous"
     ></script>
+    <script src="./assets/js/index.js"></script>
   </body>
 </html>

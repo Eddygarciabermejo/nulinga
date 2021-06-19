@@ -117,17 +117,18 @@ header
                     margin-bottom: 20%
 
                     .dates
-                        background: $color_primary
+                        background: #C4C4C4
                         padding: 1% 1%
                         border-radius: 20px
                         margin-bottom: 5%
                         width: 100%
 
+
                         .input_calendar
                             background-color: transparent
                             border: none
                             outline: none
-                            color: white
+                            color: $color_primary
                         .input_calendar[type="date"]::-webkit-calendar-picker-indicator
                             background: none
                         .input_calendar[type="date"]::-webkit-calendar-picker-indicator
@@ -136,29 +137,28 @@ header
                             bottom: 0
                             color: transparent
                             cursor: pointer
-                            height: auto
+                            height: 80%
                             left: 0
                             position: absolute
                             right: 0
                             top: 0
-                            width: auto
+                            width: 80%
+
                         .input_calendar[type="time"]::-webkit-calendar-picker-indicator
                             display: block
                             background: transparent
                             bottom: 0
                             color: transparent
                             cursor: pointer
-                            height: auto
+                            height: 80%
                             left: 0
                             position: absolute
                             right: 0
                             top: 0
-                            width: auto
+                            width: 80%
 
-                    .date_desable
-                        background: #C4C4C4
-                        .input_calendar
-                            color: $color_primary
+                        
+                        
 
 .div_select_btn
     margin-top: 3%
@@ -172,7 +172,7 @@ header
         color: $color_text
 
     .btn_reserva
-        background-color: $color_primary
+        background-color: #c4c4c4
         color: white
         border: none
         font-family: $font_secundary
@@ -233,3 +233,6 @@ header
         img
             width: 100%
             height: 100%
+
+.tex_desible
+    display: none

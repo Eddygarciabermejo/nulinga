@@ -179,6 +179,7 @@ header .div_select_header {
   border: none;
   outline: none;
   color: #7439BD;
+  text-align: center;
 }
 
 .calendar .div_calendar .dates_calendar .dates .datetime[type="datetime-local"]::-webkit-calendar-picker-indicator {

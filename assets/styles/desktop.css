@@ -154,7 +154,7 @@ header .div_select_header .row_select_header .select_option option {
 }
 
 .main .main_div_calendar .div_calendar .container_dates .div_dates .dates {
-  background: #7439BD;
+  background: #C4C4C4;
   padding: 1% 1%;
   border-radius: 20px;
   margin-bottom: 5%;
@@ -165,7 +165,7 @@ header .div_select_header .row_select_header .select_option option {
   background-color: transparent;
   border: none;
   outline: none;
-  color: white;
+  color: #7439BD;
 }
 
 .main .main_div_calendar .div_calendar .container_dates .div_dates .dates .input_calendar[type="date"]::-webkit-calendar-picker-indicator {
@@ -178,12 +178,12 @@ header .div_select_header .row_select_header .select_option option {
   bottom: 0;
   color: transparent;
   cursor: pointer;
-  height: auto;
+  height: 80%;
   left: 0;
   position: absolute;
   right: 0;
   top: 0;
-  width: auto;
+  width: 80%;
 }
 
 .main .main_div_calendar .div_calendar .container_dates .div_dates .dates .input_calendar[type="time"]::-webkit-calendar-picker-indicator {
@@ -192,20 +192,12 @@ header .div_select_header .row_select_header .select_option option {
   bottom: 0;
   color: transparent;
   cursor: pointer;
-  height: auto;
+  height: 80%;
   left: 0;
   position: absolute;
   right: 0;
   top: 0;
-  width: auto;
-}
-
-.main .main_div_calendar .div_calendar .container_dates .div_dates .date_desable {
-  background: #C4C4C4;
-}
-
-.main .main_div_calendar .div_calendar .container_dates .div_dates .date_desable .input_calendar {
-  color: #7439BD;
+  width: 80%;
 }
 
 .div_select_btn {
@@ -222,7 +214,7 @@ header .div_select_header .row_select_header .select_option option {
 }
 
 .div_select_btn .btn_reserva {
-  background-color: #7439BD;
+  background-color: #c4c4c4;
   color: white;
   border: none;
   font-family: "Open Sans", sans-serif;
@@ -305,5 +297,9 @@ header .div_select_header .row_select_header .select_option option {
 .moda_emer .background_modal img {
   width: 100%;
   height: 100%;
+}
+
+.tex_desible {
+  display: none;
 }
 /*# sourceMappingURL=desktop.css.map */
